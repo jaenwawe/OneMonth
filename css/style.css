@@ -1,0 +1,180 @@
+/*
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*-----------------------------------------------------------------------------
+01=BASE
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}
+
+img
+{
+height: 10%;
+}
+
+.alightleft{
+
+	float:left;
+	margin: 15px 0 0 0;
+}
+
+.alightright{
+	float:right;
+	margin: 15px 0 0 0;
+
+}
+
+
+
+.grey{
+	color:grey;
+}
+
+.purple{
+	color:purple;
+}
+
+.blue{
+	color:blue;
+}
+
+
+/*-----------------------------------------------------------------------------
+02=LAYOUT
+-----------------------------------------------------------------------------*/
+
+
+
+#upperbox{
+
+}
+
+#lowerbox{
+
+}
+
+/*#container {
+	width:1000px;
+	margin: 0 auto 0 auto;
+}
+*/
+#container{
+	width: 1000px;
+	color:Skyblue;
+	padding: 50px;
+
+}
+
+#header {
+	background: Pink;
+	width: 1000px;
+	padding-left: 50px;
+	margin-bottom: -25px;
+}
+
+#main{
+	background: Yellow;
+	padding-left: 50px;
+	margin-top:10px;
+	width:800px;
+	float:left;
+
+}
+
+#upperbox{
+
+}
+
+#lowerbox{
+
+
+
+}
+
+#sidebar{
+	background: grey;
+	width: 200px;
+	float:left;
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 960px;
+
+	/*top: 0;
+  bottom: 0;
+  position: absolute;*/
+	}
+
+#footer{
+	background: purple;
+	padding-left: 50px;
+	padding-top: 25px;
+	width: 1000px;
+	height: 100px;
+}
+
+
+/*.container {
+  overflow: hidden;
+  ....
+}
+*/
+
+
+
+
+/*-----------------------------------------------------------------------------
+03=MAIN
+-----------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------
+04=Navigation
+-----------------------------------------------------------------------------*/
+
+.clear {
+  clear: both;
+}
+
+nav ul {
+  padding-left: 50;
+
+}
+
+nav ul li {
+  float:left;
+  list-style:none;
+  font-size: 20px;
+}
+
+
+nav ul li a {
+  color:#FFF;s
+  margin:16px;
+  padding: 16px;
+  display: block;
+}
+
+
+.nav-container {
+  background: #ff3300;
+
+}
